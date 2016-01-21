@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #666666;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	background: #fff;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+h1, h2, h3, h4, h5, h6, #home .heading strong {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.logo{
+    text-align: center;
+}
+.logo img{
+    max-width: 100%;
+    display: inline-block;
+}
